@@ -42,8 +42,8 @@ System.out.println("the total is " + total);
     NOTE: Does it look correct, check with a calculator?
 */
 
-int amount = 3;
-int avg = total/amount;
+double amount = 3.0;
+double avg = total/amount;
 System.out.println("the average is " + avg);
 
 /*  
@@ -67,7 +67,7 @@ System.out.println("the answer is " + y);
 */
 
 
-double y1 = 2*x*(x+1)*(-x/2)/A;
+double y1 = (2*x*(x+1)*(-x/2))/A;
 System.out.println("the answer is " + y1);
 
 
