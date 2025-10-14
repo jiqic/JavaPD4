@@ -26,9 +26,9 @@ class Main {
 	System.out.println(s);
 	}
 
-	void coneVolume(double r, double h){
-		double cvv=Math.pow(Math.PI*r,2)*(h/3.0);
-	System.out.println(cvv);
+	double coneVolume(double r, double h){
+		double cvv=h/3.0*Math.PI*Math.pow(r,2);
+	return cvv;
 	}
 
 	void distance(double x1, double x2, double y1, double y2){
