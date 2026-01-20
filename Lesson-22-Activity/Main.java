@@ -45,7 +45,7 @@ int sumArray(int[] nums){
   // Return the quiz grade by counting the number of correct answers divided by
   // the number of questions.
   double quizGrader(char[] studentAnswers, char[] answerKey){
-    int correctCount = 0;
+    double correctCount = 0;
     for(int i = 0; i < studentAnswers.length; i++){
       if(studentAnswers[i] == answerKey[i]){
         correctCount++;
